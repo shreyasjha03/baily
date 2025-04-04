@@ -13,7 +13,7 @@ export default function FinalPage() {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>A Message for You...</h1>
-      <p style={styles.subtitle}>Listen carefully ❤️</p>
+      <p style={styles.subtitle}>Listen carefully &apos;cause this is special!</p>
 
       <audio ref={audioRef} controls style={styles.audio}>
         <source src="/voice-memo.m4a" type="audio/mp4" />
@@ -22,7 +22,7 @@ export default function FinalPage() {
       </audio>
 
       <p style={styles.note}>
-        If the audio doesn't play automatically, press the play button.
+        If the audio doesn&apos;t play automatically, press the play button.
       </p>
     </div>
   );
