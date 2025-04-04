@@ -6,7 +6,7 @@ export default function Home() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Hi Bhavyu!!</h1>
+      <h1 style={styles.title}>Hi Bhavyu</h1>
       <button onClick={() => router.push("/memories")} style={styles.button}>
         Click Here
       </button>
